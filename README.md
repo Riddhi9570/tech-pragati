@@ -8,7 +8,6 @@ Welcome to the TechFest website developed by Codestam for Sarala Birla Universit
 - **Registration Portal:** Seamlessly register for your favorite events with an intuitive registration system.
 - **Speakers and Workshops:** Learn from industry experts through insightful workshops and engaging speaker sessions.
 - **Interactive Schedule:** Plan your TechFest experience with our user-friendly event schedule.
-- **Live Updates:** Stay informed with real-time updates and announcements during the festival.
 
 ## Technologies Used
 
@@ -19,11 +18,6 @@ Welcome to the TechFest website developed by Codestam for Sarala Birla Universit
   
 - **Backend:**
   - Node.js
-  - MongoDB
-
-## Contribution Guidelines
-
-We welcome contributions! Feel free to open issues, suggest enhancements, or submit pull requests to help us improve the TechFest website.
 
 ## License
 
@@ -31,7 +25,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## About Codestam
 
-Codestam is a dynamic software development firm committed to delivering innovative solutions. For inquiries or collaborations, contact us at [your email].
+Codestam is a dynamic software development firm committed to delivering innovative solutions. For inquiries or collaborations, contact us at kushwaha@codestam.com.
 
 ---
 
