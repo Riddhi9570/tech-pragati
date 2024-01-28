@@ -41,7 +41,7 @@
 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_name">First Name *</label>
                                                 <input id="form_name" type="text" name="entry.1584995695"
                                                     class="form-control" placeholder="Please enter your firstname "
@@ -50,7 +50,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_lastname">Last Name *</label>
                                                 <input id="form_lastname" type="text" name="entry.1039088408"
                                                     class="form-control" placeholder="Please enter your lastname "
@@ -60,16 +60,15 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="userMail">Email *</label>
                                                 <input id="userMail" type="email" name="entry.1258077338"
                                                     class="form-control" placeholder="Please enter your email "
                                                     required="required" data-error="Valid email is required.">
-
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_phone">Phone *</label>
                                                 <input id="form_phone" type="text" name="entry.1915438133"
                                                     class="form-control" placeholder="Please enter your phone "
@@ -78,7 +77,7 @@
                                             </div>
                                         </div>
                                         <!-- <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_need">Please specify your need *</label>
                                                 <select id="form_need" name="need" class="form-control"
                                                     required="required" data-error="Please specify your need.">
@@ -94,7 +93,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_name">College Name *</label>
                                                 <input id="form_name" type="text" name="entry.201033537"
                                                     class="form-control" placeholder="Please enter your College Name "
@@ -103,7 +102,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_lastname">Semester *</label>
                                                 <input id="form_lastname" type="text" name="entry.597424097"
                                                     class="form-control" placeholder="Please enter Semester "
@@ -113,7 +112,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_lastname">Department *</label>
                                                 <input id="form_lastname" type="text" name="entry.278667753"
                                                     class="form-control" placeholder="Please enter your department"
@@ -121,7 +120,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_name">Branch *</label>
                                                 <input id="form_name" type="text" name="entry.91682761"
                                                     class="form-control" placeholder="Please enter your Branch"
@@ -130,9 +129,27 @@
                                         </div>
 
                                     </div>
+
+                                    <div class="row">
+                                        <!-- Column for Image -->
+                                        <div class="col-md-6">
+                                            <img src="../img/qrCode.jpeg" alt="Image" class="img-fluid">
+                                        </div>
+
+                                        <!-- Column for Input Field -->
+                                        <div class="col-md-12">
+                                            <div class="form-group" style="flex-direction: column;">
+                                                <label for="form_name">Transition Id *</label>
+                                                <input id="form_name" type="text" name="entry.58705390"
+                                                    class="form-control" placeholder="Please enter Transition Id"
+                                                    required="required" data-error="Transition Id is required.">
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="row">
                                         <!-- <div class="col-md-12">
-                                            <div class="form-group">
+                                            <div class="form-group" style="flex-direction: column;">
                                                 <label for="form_message">Message *</label>
                                                 <textarea id="form_message" name="message" class="form-control"
                                                     placeholder="Write your message here." rows="4" required="required"
